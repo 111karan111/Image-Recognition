@@ -15,6 +15,7 @@
 		015F1B0326255C0600B2C9C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015F1B0126255C0600B2C9C3 /* LaunchScreen.storyboard */; };
 		015F1B0E26255C0600B2C9C3 /* MlllllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015F1B0D26255C0600B2C9C3 /* MlllllTests.swift */; };
 		015F1B1926255C0600B2C9C3 /* MlllllUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015F1B1826255C0600B2C9C3 /* MlllllUITests.swift */; };
+		015F1B2A26255CCC00B2C9C3 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 015F1B2926255CCC00B2C9C3 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		015F1B1426255C0600B2C9C3 /* MlllllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MlllllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		015F1B1826255C0600B2C9C3 /* MlllllUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MlllllUITests.swift; sourceTree = "<group>"; };
 		015F1B1A26255C0600B2C9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		015F1B2926255CCC00B2C9C3 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				015F1AFC26255C0400B2C9C3 /* Main.storyboard */,
 				015F1AFF26255C0600B2C9C3 /* Assets.xcassets */,
 				015F1B0126255C0600B2C9C3 /* LaunchScreen.storyboard */,
+				015F1B2926255CCC00B2C9C3 /* Inceptionv3.mlmodel */,
 				015F1B0426255C0600B2C9C3 /* Info.plist */,
 			);
 			path = Mlllll;
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				015F1AFB26255C0400B2C9C3 /* ViewController.swift in Sources */,
+				015F1B2A26255CCC00B2C9C3 /* Inceptionv3.mlmodel in Sources */,
 				015F1AF726255C0400B2C9C3 /* AppDelegate.swift in Sources */,
 				015F1AF926255C0400B2C9C3 /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NGPFAH268;
 				INFOPLIST_FILE = Mlllll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NGPFAH268;
 				INFOPLIST_FILE = Mlllll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
